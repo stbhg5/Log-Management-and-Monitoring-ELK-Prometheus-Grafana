@@ -7,6 +7,11 @@
     <a href="https://stbhg5.tistory.com/1150">[실습] 맛집 웨이팅 API를 통한 로그실습</a><br/>
     <br/><br/>
 
+<h2>2. 로그의 Level 과 Filter<h2/>
+    <a href="https://stbhg5.tistory.com/1152">로그의 레벨 - TRACE, DEBUG, INFO, WARN, ERROR, FATAL</a><br/>
+    <a href=""></a><br/>
+    <br/><br/>
+
 <h2><h2/>
     <a href=""></a><br/>
     <a href=""></a><br/>
