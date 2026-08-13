@@ -9,6 +9,7 @@
 
 <h2>2. 로그의 Level 과 Filter<h2/>
     <a href="https://stbhg5.tistory.com/1152">로그의 레벨 - TRACE, DEBUG, INFO, WARN, ERROR, FATAL</a><br/>
+    <a href="https://stbhg5.tistory.com/1155">[실습] 실습으로 Log Level 이해하기</a><br/>
     <a href=""></a><br/>
     <br/><br/>
 
