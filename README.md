@@ -11,6 +11,7 @@
     <a href="https://stbhg5.tistory.com/1152">로그의 레벨 - TRACE, DEBUG, INFO, WARN, ERROR, FATAL</a><br/>
     <a href="https://stbhg5.tistory.com/1155">[실습] 실습으로 Log Level 이해하기</a><br/>
     <a href="https://stbhg5.tistory.com/1157">로그는 어떻게 구성돼있을까? 8가지 구성요소</a><br/>
+    <a href="https://stbhg5.tistory.com/1159">[실습] 로그 읽기 실습으로 CS 대응하기</a><br/>
     <a href=""></a><br/>
     <br/><br/>
 
