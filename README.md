@@ -15,8 +15,9 @@
     <a href="https://stbhg5.tistory.com/1162">[실습] MdcLoggingFilter로 UUID 부여하기</a><br/>
     <br/><br/>
 
-<h2><h2/>
-    <a href=""></a><br/>
+<h2>3. 로깅프레임워크 Logback<h2/>
+    <a href="https://stbhg5.tistory.com/1165">로그를 파일로 보관하는 방법</a><br/>
+    <a href="https://stbhg5.tistory.com/1166">Logback의 Appender란 무엇일까?</a><br/>
     <a href=""></a><br/>
     <br/><br/>
 
