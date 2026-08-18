@@ -18,6 +18,7 @@
 <h2>3. 로깅프레임워크 Logback<h2/>
     <a href="https://stbhg5.tistory.com/1165">로그를 파일로 보관하는 방법</a><br/>
     <a href="https://stbhg5.tistory.com/1166">Logback의 Appender란 무엇일까?</a><br/>
+    <a href="https://stbhg5.tistory.com/1169">[실습] Logback 설정하고 로그 파일로 만들기</a><br/>
     <a href=""></a><br/>
     <br/><br/>
 
