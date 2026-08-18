@@ -1,15 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <configuration>
+    <!-- 로그를 저장할 경로 -->
+    <!-- property : 자바의 변수 같은 것 -->
+    <property name="LOG_DIR" value="./logs" />
+    <property name="LOG_FILE_NAME" value="waiting-api-log" />
+
+    <!-- 로그를 출력할 곳을 정하는것이 appender -->
     <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
         <encoder>
             <!-- 흑백버전 -->
             <!-- <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} %-5level [%X{traceId}] [%thread] %logger{36} : %msg%n</pattern> -->
             <!-- 컬러버전 -->
-            <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} %highlight(%-5level) %magenta([%X{traceId}]) %yellow([%thread]) %cyan(%logger{36}) : %msg%n</pattern>
+            <!-- <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} %highlight(%-5level) %magenta([%X{traceId}]) %yellow([%thread]) %cyan(%logger{36}) : %msg%n</pattern> -->
+            <!-- 현재버전 -->
+            <pattern>%d{yyyy-MM-dd HH:mm:ss} %highlight(%-5level) [%X{traceId}] %cyan(%logger{36}) : %msg%n</pattern>
         </encoder>
+    </appender>
+
+    <appender name="FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${LOG_DIR}/${LOG_FILE_NAME}.log</file>
+
+        <encoder>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss} %-5level [%X{traceId}] %logger{36} : %msg%n</pattern>
+        </encoder>
+
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <!-- <fileNamePattern>${LOG_DIR}/${LOG_FILE_NAME}-%d{yyyy-MM-dd}.log</fileNamePattern> -->
+            <!-- 로그를 최대 30일치만 남기고 31일째 로그부터는 예전 로그를 삭제 -->
+            <!-- <maxHistory>30</maxHistory> -->
+            <fileNamePattern>${LOG_DIR}/${LOG_FILE_NAME}-%d{yyyy-MM-dd_HH-mm}.log</fileNamePattern>
+            <maxHistory>3</maxHistory>
+        </rollingPolicy>
     </appender>
 
     <root level="INFO">
         <appender-ref ref="CONSOLE" />
+        <appender-ref ref="FILE" />
     </root>
 </configuration>
