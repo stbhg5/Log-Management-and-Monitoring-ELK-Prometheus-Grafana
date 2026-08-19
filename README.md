@@ -19,6 +19,11 @@
     <a href="https://stbhg5.tistory.com/1165">로그를 파일로 보관하는 방법</a><br/>
     <a href="https://stbhg5.tistory.com/1166">Logback의 Appender란 무엇일까?</a><br/>
     <a href="https://stbhg5.tistory.com/1169">[실습] Logback 설정하고 로그 파일로 만들기</a><br/>
+    <a href="https://stbhg5.tistory.com/1171">[실습] 로그 압축(.gz)으로 서버 용량 확보하기</a><br/>
+    <br/><br/>
+
+<h2>4. ElasticSearch와 Logstash를 활용한 로그 수집<h2/>
+    <a href="https://stbhg5.tistory.com/1172">ELK 스택이란 무엇일까? - Elasticsearch, Logstash, Kibana</a><br/>
     <a href=""></a><br/>
     <br/><br/>
 
