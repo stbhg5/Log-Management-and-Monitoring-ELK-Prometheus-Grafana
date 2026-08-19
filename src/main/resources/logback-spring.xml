@@ -28,8 +28,10 @@
             <!-- <fileNamePattern>${LOG_DIR}/${LOG_FILE_NAME}-%d{yyyy-MM-dd}.log</fileNamePattern> -->
             <!-- 로그를 최대 30일치만 남기고 31일째 로그부터는 예전 로그를 삭제 -->
             <!-- <maxHistory>30</maxHistory> -->
-            <fileNamePattern>${LOG_DIR}/${LOG_FILE_NAME}-%d{yyyy-MM-dd_HH-mm}.log</fileNamePattern>
-            <maxHistory>3</maxHistory>
+            <!-- <fileNamePattern>${LOG_DIR}/${LOG_FILE_NAME}-%d{yyyy-MM-dd_HH-mm}.log</fileNamePattern> -->
+            <!-- <maxHistory>3</maxHistory> -->
+            <fileNamePattern>${LOG_DIR}/${LOG_FILE_NAME}-%d{yyyy-MM-dd_HH-mm}.log.gz</fileNamePattern>
+            <maxHistory>5</maxHistory>
         </rollingPolicy>
     </appender>
 
