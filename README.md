@@ -24,6 +24,9 @@
 
 <h2>4. ElasticSearch와 Logstash를 활용한 로그 수집<h2/>
     <a href="https://stbhg5.tistory.com/1172">ELK 스택이란 무엇일까? - Elasticsearch, Logstash, Kibana</a><br/>
+    <a href="https://stbhg5.tistory.com/1175">Logstash의 핵심 기능은 무엇일까?</a><br/>
+    <a href="https://stbhg5.tistory.com/1176">Elasticsearch를 로그 수집에 사용하는 이유</a><br/>
+    <a href="https://stbhg5.tistory.com/1177">[실습] Docker 설치</a><br/>
     <a href=""></a><br/>
     <br/><br/>
 
